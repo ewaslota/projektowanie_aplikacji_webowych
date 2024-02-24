@@ -1,0 +1,31 @@
+* {
+    border: 3px solid blue;
+}
+
+div {
+    border: 3px solid red;
+}
+
+.boxes {
+    border: 3px solid green;
+}
+
+#box-one {
+    border: 3px solid black;
+}
+
+#big-box > div {
+    border: 3px solid yellow;
+}
+
+#big-box div {
+    border: 3px solid violet;
+}
+
+#box-two + div {
+    border: 3px solid blueviolet;
+}
+
+#box-two ~div {
+    border: 4px solid deepskyblue;
+}
